@@ -1,23 +1,9 @@
 # Code from Azmeer
 
-## Lesson 2 - Using Material-UI
+## Lesson 2 - Using state hook and ReactRouter
 requires following:
 
-`npm install @material-ui/core`
-
-`npm install @material-ui/icons`
-
-## Lesson 1 - Components and Props
-
-1. Download the zip file
-
-2. UNZIP to a folder
-
-3. CD to folder
-
-`npm install`
-
-`npm start`
+`npm install --save react-router-dom`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

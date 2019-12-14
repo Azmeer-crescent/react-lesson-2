@@ -8,7 +8,7 @@ function Parent1() {
     const [count, setCount] = useState(0);
 
     const onClickHandle = () => {
-        setCount(localCount++);
+        setCount(++localCount);
     }
 
     return (

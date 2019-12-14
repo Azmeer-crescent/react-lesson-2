@@ -4,11 +4,11 @@ import Child from './Child';
 
 var localCount = 0;
 
-function Parent() {
+function Parent2() {
     const [count, setCount] = useState(0);
 
     const onClickHandle = () => {
-        setCount(localCount++);
+        setCount(++localCount);
     }
 
     return (
@@ -25,4 +25,4 @@ function Parent() {
     );
 }
 
-export default Parent;
+export default Parent2;
